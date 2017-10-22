@@ -31,7 +31,7 @@
     },
     "sourceCodeRepositoryURL": {
       "type": "string",
-      "defaultValue": "ENTER PATH to YOUR FORK of https://github.com/Azure-Samples/media-services-dotnet-functions-integration",
+      "defaultValue": "https://github.com/matiasma/media-services-dotnet-functions-integration",
       "metadata": {
         "description": "Source code repository URL. Is is REQUIRED that you first fork the samples repository and point this to your fork. If you are using your own fork, you may see an error in deployment related to GitHub auth. We require this for your own good, as we may update and break your application or testing as we deploy new updates to the public samples repository."
       }
@@ -45,14 +45,14 @@
     },
     "mediaServicesAccountAzureActiveDirectoryTenantDomain": {
       "type": "string",
-      "defaultValue": "ENTER YOUR TENANT DOMAIN, Example: microsoft.onmicrosoft.com",
+      "defaultValue": "microsoft.onmicrosoft.com",
       "metadata": {
         "description": "Azure Active Directory tenant domain of your media services account."
       }
     },
     "mediaServicesAccountRestApiEndpoint": {
       "type": "string",
-      "defaultValue": "Example: https://accountname.restv2.region.media.azure.net/api/",
+      "defaultValue": "https://media01brasil.restv2.brazilsouth.media.azure.net/api/",
       "metadata": {
         "description": "REST API endpoint of your media services account."
       }
@@ -73,7 +73,7 @@
     },
     "mediaServicesStorageAccountName": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "media01brasil",
       "metadata": {
         "description": "Storage Accouunt Name of the Media Services account"
       }
